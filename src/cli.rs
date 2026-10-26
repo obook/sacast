@@ -21,7 +21,7 @@ pub enum Command {
     /// List the receivers on the local network.
     List {
         /// Discovery duration in seconds.
-        #[arg(long, default_value_t = 8)]
+        #[arg(long, default_value_t = 12)]
         timeout: u64,
     },
     /// Show what a receiver says about itself: model, version, screen, access it asks for.
