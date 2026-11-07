@@ -40,6 +40,7 @@ Done:
 To do:
 
 - [ ] Tune the alert thresholds on a real receiver and the school network
+- [ ] `f` freezes the image, as in sbcast and sccast (obook/sbcast#11): the receiver keeps the current frame with "Freeze" in its top right corner, `f` again goes live. Port sbcast's overlay and frame probe once video reaches a receiver
 
 ## Packaging
 
